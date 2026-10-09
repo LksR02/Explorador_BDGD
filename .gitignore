@@ -1,0 +1,34 @@
+# Local database binaries, data, downloads, and credentials
+/downloads/
+/runtime/
+/.secrets/
+/logs/
+
+# Locally installed QGIS MCP source and Python environment
+/vendor/
+
+# Generated inventory and import reports
+/reports/
+
+# Local backups, unpublished congress drafts and publication staging
+/backups/
+/submissions/
+/publication/
+
+# Local projects, screenshots and working databases
+/*.qgz
+/*.qgs
+/*.png
+/*.db
+
+# Python bytecode and local editor environments
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+
+# Historical plugin packages (the current public package is included)
+/bdgd_aneel_manager_*.zip
+!/bdgd_aneel_manager_0.21.0.zip
+
